@@ -6,7 +6,7 @@ module predictor(input wire request, result, clk, taken, output reg prediction);
     
     if (request)
       begin
-        prediction <= state[1]    
+        prediction <= state[1];  
       end
 
 
@@ -16,14 +16,14 @@ module predictor(input wire request, result, clk, taken, output reg prediction);
           begin
             if(state <3)
               begin
-                state<= state + 1
+                state<= state + 1;
               end
           end
         else if(taken==0)
           begin
             if (state>0)
             begin
-              state<= state -1
+              state<= state -1;
             end
           end
       end
