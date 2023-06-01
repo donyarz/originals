@@ -1,7 +1,7 @@
 module predictor(input wire request, result, clk, taken, output reg prediction);
   reg previous_request;
   reg previous_result;
-  reg state[1:0] = 3
+  reg state[1:0] = 3;
   always @(posedge clk) begin
     
     if (request)
