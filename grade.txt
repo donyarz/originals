@@ -1,4 +1,0 @@
-Thu Jun  1 06:57:36 UTC 2023
-predictor.v:3: syntax error
-predictor.v:2: error: Invalid variable list in port declaration.
-An error occurred when opening .vcd file '.tmp.vcd'
